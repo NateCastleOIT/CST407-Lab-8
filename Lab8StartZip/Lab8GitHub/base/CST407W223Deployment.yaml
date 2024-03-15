@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: cst407
-        image: estysis/cst407lab4app:0.0.2
+        image: estysis/nice_docker:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
